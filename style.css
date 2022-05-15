@@ -17,8 +17,8 @@ html {
 }
 
 nav {
- height: 80px;
- display: flex;
+  height: 80px;
+  display: flex;
 }
 
 p {
@@ -29,7 +29,7 @@ a {
   text-decoration: none;
 }
 
-a:hover { 
+a:hover {
   text-decoration: underline;
 }
 
@@ -108,7 +108,7 @@ li {
   visibility: hidden;
 }
 
-.menu--open .menu__backdrop{
+.menu--open .menu__backdrop {
   visibility: visible;
   opacity: 1;
 }
@@ -131,7 +131,6 @@ li {
 .menu__link {
   font-size: 40px;
   color: #fff;
-
 }
 
 .btn__menu--close {
@@ -240,7 +239,7 @@ button:active {
 
 #highlights::before,
 #highlights::after {
-  background: url('assets/wave.svg');
+  background: url("assets/wave.svg");
   content: "";
   position: absolute;
   left: 0;
@@ -395,7 +394,6 @@ footer {
 
 .footer__list {
   margin: 20px 0 24px 0;
-
 }
 
 .footer__link {
